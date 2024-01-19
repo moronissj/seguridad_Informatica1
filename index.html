@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calcular Indice de masa corporal</h1>
+    <div id="content">
+        <div id="datos">
+            <div>
+                
+                kg <br>
+                <input type="number" min="1" pattern="^[0-9]+" id="kg">
+            </div>
+    
+            <div>
+                
+                metros <br>
+                <input type="number" min="1" pattern="^[0-9]+" id="mtr">
+            </div>
+            <div >
+                <button id="btn">CALCULAR</button>
+            </div>
+        </div>
+    
+        <div id="semaforo" >
+            <div id="amarillo" class="semaforo">Bajo peso</div>
+            <div id="verde" class="semaforo"> Normal</div>
+            <div id="naranja" class="semaforo">Sobrepeso</div>
+            <div id="rojo" class="semaforo">Obesidad</div>
+
+            <div id="error"></div>
+        </div>
+    </div>
+
+</body>
+
+<script src="/functions.js">
+
+</script>
+</html>
